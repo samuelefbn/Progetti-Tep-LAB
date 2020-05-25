@@ -1,0 +1,5 @@
+1)nella classe CViaggio aggiungo un oggetto CTime Durata che permette di indicare la durata generale del viaggio
+2)aggiungo una classe Ctime con gli attributi "Integer ore;minuti"
+3)aggiungo una classe CdataEstesa con l' attributi "Integer posti"
+4)aggiungo una classe CElencoDate con gli attributi "Cdate elenco e Integer NUmEl"
+5)aggiungo una classe CViaggiocon gli attributi CElencoDate elenco
