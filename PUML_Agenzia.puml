@@ -1,0 +1,49 @@
+@startuml
+class UML_turismo {
+    public static void main(String[] args)
+}
+class CAcquirente  {
+    String nome;
+    int    numeroPostiAcquistati;
+}
+class CAreoporto {
+    String nome;
+    int numeroPiste;
+    String localita;  
+}
+class CDate {
+    int numGiorni;    
+    String toString();
+}
+class CDipendente {
+    int matricola;
+    String nome;
+    char sesso;
+}
+class CHostess {
+    String residenza;
+    int oreVolo;
+}
+class CPasseggero {
+    String nome;
+    char sesso;
+    CDate dataNascita;
+    String documento;   
+}
+class CPilota {
+    int oreVolo;
+    String ruolo;   
+}
+class CViaggio {
+    String sigla;
+    String PaeseDestinazione;
+    int    numSettimane;
+    int    tipologiaDestinazione;
+
+    int    costoMinimo;
+    int    costoMassimo;
+    CDate  dataPartenza;
+    int    postiDisponibili;
+}
+
+@enduml
